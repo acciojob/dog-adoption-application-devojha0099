@@ -83,23 +83,23 @@
 
             <div class="form-group">
                 <label for="phone">Phone Number:</label>
-                <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
+                <input type="text" id="phone" name="phone" placeholder="Your Phone Number">
             </div>
 
             <div class="form-group">
                 <label for="address">Address:</label>
-                <textarea id="address" name="address" placeholder="Your Address"></textarea>
+                <textarea id="address" name="address" placeholder="Address"></textarea>
             </div>
 
             <div class="form-group">
                 <label>
-                    <input type="checkbox" name="lived_with_dog" value="Yes"> Have you ever lived with a Dog before?
+                    <input type="checkbox" id="checkbox" name="lived_with_dog" value="Yes"> Have you ever lived with a Dog before?
                 </label>
             </div>
 
             <div class="form-group">
-                <label for="preferred_breeds">Preferred Breeds:</label>
-                <select id="preferred_breeds" name="preferred_breeds" multiple>
+                <label for="multiSelect">Preferred Breeds:</label>
+                <select id="multiSelect" type="select" name="preferred_breeds" >
                     <option value="Labrador Retriever">Labrador Retriever</option>
                     <option value="Golden Retriever">Golden Retriever</option>
                     <option value="German Shepherd">German Shepherd</option>
